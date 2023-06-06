@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 })
 
 //http://localhost:3000/name
-app.get('/', function (req, res) {
+app.get('/name', function (req, res) {
   res.send("<h1>Arvind Singh jugtwan C0860886</h1>")
 })
 //http://localhost:3000/profile
