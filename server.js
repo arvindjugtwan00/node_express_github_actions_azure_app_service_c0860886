@@ -11,12 +11,12 @@ app.use(express.urlencoded({ extended: true })) // for parsing application/x-www
 
 //http://localhost:3000/
 app.get('/', function (req, res) {
-    res.send("<h1>Arvind Singh jugtwan C0860886</h1>")
+    res.send("<h1>Home Page</h1>")
 })
 
 //http://localhost:3000/name
 app.get('/', function (req, res) {
-  res.send("<h1>Home Page</h1>")
+  res.send("<h1>Arvind Singh jugtwan C0860886</h1>")
 })
 //http://localhost:3000/profile
 app.post('/profile', (req, res) => {
